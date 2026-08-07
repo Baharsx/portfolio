@@ -6,8 +6,8 @@ Personal portfolio of **Soheil SL** — builder, onchain researcher, and Web3 co
 
 The site intentionally combines both sides of my public work:
 
-- **Builder résumé:** product engineering, AI agents, programmable payments, and my current flagship project, [MemeVerse](https://github.com/Baharsx/memeverse).
-- **Creator / research résumé:** Web3 research, RWA and onchain content, public X work, and campaign proof.
+- **Builder profile:** product engineering, AI agents, programmable payments, and my current flagship project, [MemeVerse](https://github.com/Baharsx/memeverse).
+- **Creator / research profile:** Web3 research, RWA and onchain content, public X work, and campaign proof.
 
 ## Links
 
