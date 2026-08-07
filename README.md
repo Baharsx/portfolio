@@ -2,6 +2,8 @@
 
 Personal portfolio of **Soheil SL** — builder, onchain researcher, and Web3 content creator.
 
+**Live:** [soheil-portfolio-pi.vercel.app](https://soheil-portfolio-pi.vercel.app)
+
 The site intentionally combines both sides of my public work:
 
 - **Builder résumé:** product engineering, AI agents, programmable payments, and my current flagship project, [MemeVerse](https://github.com/Baharsx/memeverse).
