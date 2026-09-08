@@ -3,18 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="referrer" content="no-referrer" />
+  <meta name="description" content="Media kit for Soheil — builder, Web3 content creator, and onchain researcher." />
+  <meta name="theme-color" content="#0a0f16" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <link rel="canonical" href="https://soheil-portfolio-pi.vercel.app/media-kit.html" />
+  <meta property="og:site_name" content="Soheil" />
+  <meta property="og:title" content="Soheil — Media Kit" />
+  <meta property="og:description" content="Media kit for Soheil — builder, Web3 content creator, and onchain researcher." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://soheil-portfolio-pi.vercel.app/media-kit.html" />
+  <meta property="og:image" content="https://soheil-portfolio-pi.vercel.app/images/soheil-pfp.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Soheil — Media Kit" />
+  <meta name="twitter:description" content="Media kit for Soheil — builder, Web3 content creator, and onchain researcher." />
+  <meta name="twitter:image" content="https://soheil-portfolio-pi.vercel.app/images/soheil-pfp.png" />
+  <meta name="twitter:site" content="@khodeSL" />
   <title>Soheil — Media Kit</title>
-  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Baharsx/portfolio/main/images/soheil-pfp.png?v=20260807-2" />
-  <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Baharsx/portfolio/main/images/soheil-pfp.png?v=20260807-2" />
-  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/Baharsx/portfolio/main/images/soheil-pfp.png?v=20260807-2" />
+  <link rel="icon" type="image/png" href="/images/soheil-pfp.png" />
+  <link rel="apple-touch-icon" href="/images/soheil-pfp.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body class="media-kit-page">
-  <main class="media-kit-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary">
+      <a class="brand" href="/#home">
+        <span class="brand-name">SOHEIL</span>
+        <span class="brand-role">Builder · Researcher · Creator</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="/#builder">Builder</a>
+        <a href="/#creator">Creator</a>
+        <a href="/#work">Selected Work</a>
+        <a href="/media-kit.html" aria-current="page">Media Kit</a>
+        <a class="button button-small" href="https://t.me/sirSL" target="_blank" rel="noopener noreferrer">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="media-kit-shell">
     <a class="text-link" href="/">← Back to portfolio</a>
     <header class="media-kit-header">
       <div>
@@ -22,7 +59,7 @@
         <h1>Soheil</h1>
         <p>Builder · Web3 content creator · Onchain researcher</p>
       </div>
-      <img src="/images/soheil-pfp.png" alt="Soheil avatar" width="120" height="120" />
+      <img src="/images/soheil-pfp.png" alt="Portrait of Soheil" width="120" height="120" decoding="async" />
     </header>
 
     <div class="media-stat-grid">
@@ -75,5 +112,18 @@
 
     <p class="snapshot-note">Audience and campaign metrics are point-in-time public snapshots and may change.</p>
   </main>
+
+  <footer class="site-footer">
+    <div class="section-inner footer-inner">
+      <span>© 2026 Soheil</span>
+      <div class="footer-links">
+        <a href="/media-kit.html" aria-current="page">Media Kit</a>
+        <a href="https://github.com/Baharsx" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/khodeSL" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://t.me/sirSL" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="/script.js"></script>
 </body>
 </html>

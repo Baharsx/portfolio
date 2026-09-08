@@ -55,18 +55,24 @@ function initNav() {
   const toggle = document.querySelector('.nav-toggle');
   const menu = document.getElementById('nav-menu');
   if (!toggle || !menu) return;
-  const close = () => {
-    menu.classList.remove('open');
-    toggle.setAttribute('aria-expanded', 'false');
-  };
-  toggle.addEventListener('click', () => {
-    const open = !menu.classList.contains('open');
+
+  const setOpen = (open) => {
     menu.classList.toggle('open', open);
     toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+  };
+
+  toggle.addEventListener('click', () => {
+    setOpen(!menu.classList.contains('open'));
   });
-  menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', close));
+  menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setOpen(false)));
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') close();
+    if (event.key === 'Escape') setOpen(false);
+  });
+  document.addEventListener('click', (event) => {
+    if (!menu.classList.contains('open')) return;
+    if (menu.contains(event.target) || toggle.contains(event.target)) return;
+    setOpen(false);
   });
 }
 
