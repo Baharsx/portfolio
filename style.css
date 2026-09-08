@@ -160,6 +160,7 @@ h3 { font: 500 1.42rem/1.2 var(--font-display); }
 .work-card h3 { margin: 11px 0 10px; }
 .work-card p { color: var(--text-2); flex: 1; }
 .work-card a { margin-top: 18px; text-decoration: none; font: .82rem var(--font-mono); }
+.work-more { margin: 28px 0 0; }
 
 .contact-grid { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: flex-end; }
 .contact-actions { justify-content: flex-end; margin-top: 0; }
