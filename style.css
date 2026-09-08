@@ -81,6 +81,9 @@ h2 { font-size: clamp(2.1rem, 4vw, 3.1rem); line-height: 1.08; margin-bottom: 16
 h3 { font: 500 1.42rem/1.2 var(--font-display); }
 .section-lede, .hero-lede { max-width: 67ch; color: var(--text-2); }
 .hero-lede { font-size: 1.11rem; }
+.hero-credential { margin: 18px 0 0; color: var(--text-2); font: 500 .92rem var(--font-mono); letter-spacing: .02em; }
+.hero-credential a { color: var(--steel); text-decoration: none; }
+.hero-credential a:hover { color: var(--beacon-bright); }
 
 .hero { min-height: calc(100vh - 74px); display: flex; align-items: center; }
 .hero-actions, .contact-actions, .card-links { display: flex; gap: 11px; flex-wrap: wrap; margin-top: 30px; }
@@ -135,6 +138,8 @@ h3 { font: 500 1.42rem/1.2 var(--font-display); }
 .case-card h3 { margin: 9px 0 8px; font-size: 1.8rem; }
 .case-result { color: var(--beacon-bright); font: 500 1.6rem var(--font-display); margin: 18px 0 12px; }
 .case-card > p:not(.case-result):not(.snapshot-note), .case-card li { color: var(--text-2); }
+.case-card .card-links { margin-top: 18px; }
+.case-card .card-links a { text-decoration: none; font: .82rem var(--font-mono); }
 .case-card ul { padding-left: 20px; }
 .case-card li + li { margin-top: 7px; }
 
