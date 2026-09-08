@@ -102,11 +102,13 @@ h3 { font: 500 1.42rem/1.2 var(--font-display); }
 
 .section-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 34px; }
 .builder-layout { display: grid; grid-template-columns: 1.12fr .88fr; gap: 20px; }
+.project-stack { display: grid; gap: 16px; }
 .project-card, .capability-card, .profile-summary-card, .case-card, .work-card { background: rgba(14,21,32,.7); border: 1px solid var(--line); border-radius: var(--radius); }
 .project-card { padding: 30px; }
 .project-card:hover, .capability-card:hover, .work-card:hover { border-color: var(--line-strong); }
 .project-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
 .project-head h3 { margin: 8px 0 0; font-size: 2rem; }
+.project-card:not(.flagship) .project-head h3 { font-size: 1.55rem; }
 .project-network { border: 1px solid rgba(139,122,232,.45); color: #b8adff; background: rgba(139,122,232,.08); padding: .32rem .54rem; border-radius: 4px; font: 500 .72rem var(--font-mono); }
 .project-hook { color: var(--beacon-bright); font: italic 1.35rem var(--font-display); margin: 24px 0 10px; }
 .project-card > p:not(.project-hook) { color: var(--text-2); }
