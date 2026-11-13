@@ -7,7 +7,7 @@ Personal website of **Soheil** — early Web3 contributor, builder, and creator.
 The site covers two complementary sides of my work:
 
 - **Web3 / creator:** early ecosystem participation, community and creator campaigns, educational content, Limitless ambassadorship, and selected published work.
-- **Builder:** products and experiments including [MemeVerse](https://github.com/Baharsx/memeverse) and [Orrery](https://github.com/Baharsx/Orrery).
+- **Builder:** products and experiments including [MemeVerse](https://github.com/Baharsx/memeverse) (shipped on Arc mainnet, closed November 2026) and [Orrery](https://github.com/Baharsx/Orrery).
 
 A separate [media kit](https://soheil-portfolio-pi.vercel.app/media-kit.html) provides collaboration formats and campaign evidence.
 
